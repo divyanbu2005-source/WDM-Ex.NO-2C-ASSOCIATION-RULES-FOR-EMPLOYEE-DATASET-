@@ -1,13 +1,14 @@
 # WDM-Ex.NO-2C-ASSOCIATION-RULES-FOR-EMPLOYEE-DATASET
-Aim:
+### Aim:
 To Find the Association Rules for Employee data.
-Description:
+### Description:
 In data mining, association rule learning is a popular and well researched method for discovering interesting relations between variables in large databases. It can be described as analyzing and presenting strong rules discovered in databases using different measures of interestingness. In market basket analysis association rules are used and they are also employed in many application areas including Web usage mining, intrusion detection and bioinformatics.
 Creation of Banking Table:
-Procedure:
+### Procedure:
 1)	Open Start  Programs  Accessories  Notepad
 2)	Type the following training data set with the help of Notepad for Employee Table.
-  ``` @relation employee-1
+  ```
+@relation employee-1
 @attribute age {youth, middle, senior}
 @attribute income {high, medium, low}
 @attribute class {A, B, C}
@@ -23,6 +24,7 @@ senior, low, C
 senior, medium, B 
 senior, high, B 
 middle, high, B
+```
 
 3)	After that the file is saved with .arff file format.
 4)	Minimize the arff file and then open Start  Programs  weka-3-4.
@@ -44,7 +46,7 @@ Procedure for Association Rules:
  <img width="1080" height="855" alt="image" src="https://github.com/user-attachments/assets/ed55ef14-ccfe-4eb0-9c8a-cd5740aab138" />
 
  
-Output:
+### Output:
 <img width="941" height="568" alt="image" src="https://github.com/user-attachments/assets/553cab8b-b1a0-4116-ac90-37308e0b6273" />
 <img width="941" height="636" alt="image" src="https://github.com/user-attachments/assets/6eda356b-a835-48c4-a32b-c708825289ac" />
 
@@ -80,5 +82,5 @@ Output:
 
 
 
-Result:
+### Result:
 Thus, this program has been successfully executed.
